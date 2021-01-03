@@ -1,0 +1,38 @@
+
+// 递归
+
+找最小重复子问题。
+
+
+1. 泛型递归模板
+
+function recursion(level, params1, params2, ...){
+    //terminator 递归结束条件
+    if(level<=0){
+        //结果处理
+        return 
+    }
+
+    // process
+
+    params1 = params1 + 1;
+    // 当前层逻辑处理
+
+    // drill down 下探到下一层
+
+    // reverse
+
+    // 看是否需要返回结果
+    return 
+}
+
+
+2. 分治
+特殊的递归, 
+
+
+
+
+3.回溯
+
+
